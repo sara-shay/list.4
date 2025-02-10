@@ -1,0 +1,28 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		inteiro matriz[5][5]
+		
+		para(inteiro i=0; i<5; i++){
+			para(inteiro j=0; j<5; j++){
+				se(i==j){
+					matriz[i][j]=1
+				}senao{
+					matriz[i][j]=0
+				}
+			}	
+		     }
+		     limpa()
+		     para(inteiro i=0; i<5; i++){
+		     	para(inteiro j=0; j<5; j++){
+		     		escreva("["+matriz[i][j]+"[")
+		     	}
+		     	escreva("\n")
+		     }
+		     
+	}
+}
+	}
+}

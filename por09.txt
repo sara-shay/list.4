@@ -1,0 +1,25 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		inteiro matriz[4][4]
+		real multiplicacao
+		
+		para(inteiro i=0; i<4; i++){
+			para(inteiro j=0; j<4; j++){
+			matriz[i][j] = i*j	
+					
+				
+				}
+			}	
+		     
+		    
+		     para(inteiro i=0; i<4; i++){
+		     	para(inteiro j=0; j<4; j++){
+		     		escreva("["+matriz[i][j]+"[")
+		     	}
+		     	escreva("\n")
+		     }
+	}
+}

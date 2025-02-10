@@ -1,0 +1,29 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro matriz[5][5], X
+		logico achou = falso
+		para(inteiro i=0; i<5; i++){
+			para(inteiro c=0; c<5; c++){
+				escreva("Qual o valor da posição ["+i+"]["+c+"]? ")
+				leia(matriz[i][c])
+			}
+		}
+		limpa()
+		escreva("Qual o número que deseja procurar? ")
+		leia(X)
+		limpa()
+		para(inteiro i=0; i<5; i++){
+			para(inteiro c=0; c<5; c++){
+			 se (matriz[i][c]==X){
+			 	escreva("O número "+X+" foi encontrado na posição ["+i+"]["+c+"]")
+			 	achou = verdadeiro}
+		  }
+		}
+		se (achou == falso){
+			escreva("O número não foi encontrado.")
+		}
+		
+	}
+}

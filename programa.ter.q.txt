@@ -1,0 +1,15 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro vet[6]
+		para(inteiro i=0; i<6; i++){
+			escreva ("Qual o número, inteiro e par, da posição "+i+"? ")
+			leia(vet[i])
+		}
+		limpa()
+		para(inteiro i=0; i<6; i++){
+			escreva(vet[5-i]+", ")
+		}
+	}
+}

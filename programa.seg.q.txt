@@ -1,0 +1,16 @@
+programa
+{
+	funcao inicio ()
+	{
+		inteiro num[8], soma=0
+		para (inteiro i=0; i<8; i++){
+			escreva("Qual o número da posição "+i+"? ")
+	        leia(num[i])
+			se ((i==0)ou(i==7)){
+				soma=soma+num[i]
+			}
+		}
+		limpa()
+		escreva("\nA soma dos valores da posição 0 e 7 é "+soma)
+	}
+}

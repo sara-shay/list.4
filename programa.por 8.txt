@@ -1,0 +1,24 @@
+programa
+{
+	funcao inicio ()
+	{
+		
+		inteiro mat[2][2]
+		logico sera= verdadeiro, vdd=verdadeiro
+		para (inteiro i=0; i<2; i++){
+			para (inteiro c=0; c<2; c++){
+				escreva("Qual o valor da posição ["+i+"]["+c+"]")
+				leia(mat[i][c])
+			}
+		}
+		para (inteiro i=0; i<2; i++){
+				se(mat[i][0]==mat[i][1]){
+					sera= verdadeiro
+				}senao{ 
+					sera = falso}
+					se (sera==falso){
+						vdd=falso
+					}
+					escreva("é"+vdd)}
+	}
+}
